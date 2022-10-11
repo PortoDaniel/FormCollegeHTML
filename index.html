@@ -1,67 +1,99 @@
-<!DOCTYPE html> 
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Respostas</title>
+    <style>
+        * {
+            font-family: 'inter', sans-serif;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .Link{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
-	<body>
-	    <form method="GET" action="">
-            <label>Nome:</label>
-            <input type="text" id="fname" name="fname"></input><br>  
-            <label>Data de Nascimento:</label>            
-            <input type="text" id="fname" name="fname"></input><br>            
-            <label>Sexo:</label>            
-            <input type="radio" id="fname" name="fname" value="Masc"></input>            
-            <label>Masc</label>            
-            <input type="radio" id="fname" name="fname" value="Fem"></input>
-            <label>Fem</label>            
-            <input type="radio" id="fname" name="fname" value="Prefiro não informar"></input>
-            <label>Prefiro não informar</label>            
-            <br>
-            <label>Endereço:</label>            
-            <input type="text" id="fname" name="fname"></input><br>
-            <label>Logradouro:</label>            
-            <input type="text" id="fname" name="fname"></input><br>                         
-            <label>Bairro:</label>            
-            <input type="text" id="fname" name="fname"></input><br> 
-            <label>Cidade:</label>            
-            <input type="text" id="fname" name="fname"></input><br>
-            <label for="cars">UF:</label>
-                <select id="cars" name="cars">
-                    <option value="">AC</option>
-                    <option value="">AL</option>
-                    <option value="">AM</option>
-                    <option value="">AP</option>
-                    <option value="">BA</option>
-                    <option value="">CE</option>
-                    <option value="">DF</option>
-                    <option value="">ES</option> 
-                    <option value="">GO</option>
-                    <option value="">MA</option>
-                    <option value="">MG</option>
-                    <option value="">MS</option> 
-                    <option value="">MT</option>
-                    <option value="">PA</option>
-                    <option value="">PB</option>
-                    <option value="">PE</option> 
-                    <option value="">PI</option>
-                    <option value="">PR</option>
-                    <option value="">RJ</option>
-                    <option value="">RN</option> 
-                    <option value="">RO</option>
-                    <option value="">RR</option>
-                    <option value="">RS</option>
-                    <option value="">SC</option> 
-                    <option value="">SE</option>
-                    <option value="">SP</option>
-                    <option value="">TO</option>                 
-                </select>
-            <br>
-            <label>Cidade:</label>            
-            <input type="text" id="fname" name="fname"></input><br>
-            <input type="button" onclick="alert('Hello World!')" value="Limpar">  <input type="button" onclick="alert('Hello World!')" value="Enviar">
-        </form>
-	</body>
+
+<body>
+    <div class="Tabela">
+        <h1>Respondendo as perguntas </h1>
+        <h4>
+            1) Esse atributo cumpre a função de disponibilizar ao usuário uma dica que descreve o valor esperado em um
+            determinado campo de entrada. Uma dica que deverá ser apresentada para o usuário antes que ele entre com o
+            valor
+            e também deve ser objetiva
+        </h4>
+        <h4>
+            2) input elementos do tipo rádio são geralmente usados em grupos de rádio — coleções de botões de rádio
+            descrevendo um conjunto de opções relacionadas.
+            Apenas um botão de rádio em um determinado grupo pode ser selecionado ao mesmo tempo. Os botões de rádio são
+            normalmente renderizados como pequenos círculos, que são preenchidos ou destacados quando selecionados.
+            input elementos do tipo rádio são geralmente usados em grupos de rádio — coleções de botões de rádio
+            descrevendo um conjunto de opções relacionadas.
+            Apenas um botão de rádio em um determinado grupo pode ser selecionado ao mesmo tempo. Os botões de rádio são
+            normalmente renderizados como pequenos círculos, que são preenchidos ou destacados quando selecionados.
+        </h4>
+        <h4>
+            3) O atributo value em HTML é usado para especificar o valor do elemento com o qual é usado. Tem um
+            significado
+            diferente para diferentes elementos HTML.
+            O atributo de valor pode ser usado para definir um valor padrão para um campo de entrada, definir valores
+            para
+            botões de opção, caixa de seleção, elementos de opção e definir texto de exibição de um botão
+        </h4>
+        <h4>
+            4) input type="radio"
+        </h4>
+        <h4>
+            5) O atributo for faz um tipo de link entre a label e o input. Logo o for tem que apontar para o ID do
+            input.
+            Outra forma de uso é que vc pode fazer vários tipos de customização pelo CSS escondendo o input default do
+            browser por exemplo e usando a própria label como se fosse o botão.
+            Representa uma legenda para um item em uma interface de usuário. O atributo for serve para referenciar o id
+            da
+            tag input, deve conter o mesmo nome.
+        </h4>
+        <h4>
+            6) Em um formulário Web, o elemento HTML option é usado para criar um controle que representa um item dentro
+            de
+            um elemento HTML5 select, optgroup ou datalist.
+        </h4>
+        <h4>
+            7) Colocar o atributo required funciona para que o usuário não envie o formulário sem algum campo
+            preenchido. Ao
+            estuda sobre back-end, e sobre segurança do banco de dados eu descobri que existe um risco de apenas o usar
+            o
+            required no HTML. O usuário pode remover esse atributo através do console do navegador.
+        </h4>
+        <h4>
+            8) O atributo action define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados. O
+            atributo method define qual o método HTTP para enviar os dados (ele pode ser "GET" ou "POST" (veja as
+            diferenças
+            aqui). Para que utilizamos a tag form?
+        </h4>
+        <h4>
+            9) O atributo method define o método HTTP com que o formulário HTML irá lidar com os dados recebidos. São
+            eles: o
+            método GET e o método POST.
+        </h4>
+        <h4>
+            10) "method" na tag form
+        </h4>
+        <h4>
+            11) O type seria file.
+        <h4>
+    </div>
+    <div class="Link">
+        <a href="./Formulario.html">Clique Aqui Para Ir Para o Formulario</a>
+    </div>
+</body>
+
 </html>
